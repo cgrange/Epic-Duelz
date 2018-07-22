@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Characters</title>
+</head>
+<body>
+    <div class="card">
+        <img width="260px" src="http://www.genesisgallery.im/images/collections/originals/1192238%20-%20OZIN065F%20-%20ZINSKY%2040%20X%2030%20CFA%20APPROX%20ORIGINAL%20ON%20CANVAS%20%20Han%20Solo%20III_large.jpg"/>
+        <form action="/chooseDude" method="post">
+            <input type="text" name="dude" value="Han Solo" readonly>
+            <input type="submit" value="Choose Me">
+        </form>
+    </div>
+    <div class="card">
+        <img src="http://articulatebear.co.uk/wp-content/uploads/2016/11/Boba-fett.jpg" width="260px"/>
+        <form action="/chooseDude" method="post">
+            <input type="text" name="dude" value="Boba Fett" readonly>
+            <input type="submit" value="Choose Me">
+        </form>
+    </div>
+</body>
+</html>
